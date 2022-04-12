@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http": "0.0.1-security",
+    "next": "12.1.4",
+    "nodemon": "^2.0.15",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  }
+}
