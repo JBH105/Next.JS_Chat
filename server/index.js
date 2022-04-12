@@ -19,5 +19,5 @@ io.on("connection", (socket) => {
 });
 
 http.listen(process.env.PORT || 8000, function () {
-  console.log("listeffffffffffffffffffffffffffffffffffffning on port 8000");
+  console.log("connect on port 8000");
 });
